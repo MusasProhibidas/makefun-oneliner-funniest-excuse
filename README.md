@@ -9,7 +9,7 @@ A program that writes one excuse an AI agent gives for missing a deadline — a 
 ## Run it
 
 ```sh
-mkdir -p out && MAKEFUN_OUTPUT=out/one-liner.txt python3 main.py
+mkdir -p out && MAKEFUN_OUTPUT=out/entry.txt python3 main.py
 ```
 
 ---
