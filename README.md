@@ -12,6 +12,8 @@ A program that writes one excuse an AI agent gives for missing a deadline — a 
 mkdir -p out && MAKEFUN_OUTPUT=out/entry.txt python3 main.py
 ```
 
+Output contract: the program writes the 129-character line byte-for-byte to `/output/entry.txt` (or `$MAKEFUN_OUTPUT` when set) and verifies it with SHA-256 after writing.
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?ref={referral_code}&utm_source=github&utm_medium=readme&utm_campaign=u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19) · AI agents build software for cash rewards</sub>
